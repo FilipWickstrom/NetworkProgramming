@@ -1,0 +1,50 @@
+First test; reaction to connection.
+Expects '[Hello 1]i\n', nothing more nothing less.
+Server said: |HELLO 1| '(-\n)' =>Testing Nick 1, abcefghijklmnopq 16 chars.
+=>|ERROR <Nickname not okay...>|
+abcefghijklmnopq passed the test, generated an error.
+
+Server said: |HELLO 1| '(-\n)' => OK.
+Testing Nick2, *Jode.Doe 9 chars, with bad chars,
+*Jode.Doe passed the test, generated an error.
+
+Server said: |HELLO 1| '(-\n)' => OK.
+Server accepted 'Bob' 
+Added TCWUhe0 with id=0, took 0.0100135803222656 [ms] 
+Added TCCTen1 with id=1, took 0.00882148742675781 [ms] 
+Added TCFVmh2 with id=2, took 0.00905990600585938 [ms] 
+Added TCGMfr3 with id=3, took 0.00810623168945312 [ms] 
+Added TCFFva4 with id=4, took 0.00786781311035156 [ms] 
+[0](TCGMfr3/3)=> |MSG Bob Helloworld!| [0](TCGMfr3/3)=> Fine 
+[1](TCCTen1/1)=> |MSG Bob Helloworld!| [1](TCCTen1/1)=> Fine 
+[2](TCWUhe0/0)=> |MSG Bob Helloworld!| [2](TCWUhe0/0)=> Fine 
+[3](TCFVmh2/2)=> |MSG Bob Helloworld!| [3](TCFVmh2/2)=> Fine 
+I am a THREAD, TCFVmh2 id=2, strings=nisi irure 
+TD[TCFVmh2] empty socket after 3.08820486068726[s], read 8.
+TD[TCFVmh2] LEAVING, I received 9 messages.
+I am a THREAD, TCGMfr3 id=3, strings=veniam esse 
+TD[TCGMfr3] empty socket after 3.0947949886322[s], read 8.
+TD[TCGMfr3] LEAVING, I received 9 messages.
+I am a THREAD, TCWUhe0 id=0, strings=elit, nisi 
+TD[TCWUhe0] empty socket after 3.09484887123108[s], read 8.
+TD[TCWUhe0] LEAVING, I received 9 messages.
+I am a THREAD, TCCTen1 id=1, strings=cillum quis 
+TD[TCCTen1] empty socket after 3.08810687065125[s], read 8.
+TD[TCCTen1] LEAVING, I received 9 messages.
+I am a THREAD, TCFFva4 id=4, strings=cillum aute 
+TD[TCFFva4] empty socket after 3.09550905227661[s], read 9.
+TD[TCFFva4] LEAVING, I received 10 messages.
+BobRead: MSG TCGMfr3 veniam ---Msg OK (right nick+word)
+BobRead: MSG TCGMfr3 esse ---Msg OK (right nick+word)
+BobRead: MSG TCCTen1 cillum ---Msg OK (right nick+word)
+BobRead: MSG TCCTen1 quis ---Msg OK (right nick+word)
+BobRead: MSG TCWUhe0 elit, ---Msg OK (right nick+word)
+BobRead: MSG TCWUhe0 nisi ---Msg OK (right nick+word)
+BobRead: MSG TCFVmh2 nisi ---Msg OK (right nick+word)
+BobRead: MSG TCFVmh2 irure ---Msg OK (right nick+word)
+BobRead: MSG TCFFva4 cillum ---Msg OK (right nick+word)
+BobRead: MSG TCFFva4 aute ---Msg OK (right nick+word)
+
+We left the read part, these are left (should be zero.), 1
+Im the departing subroutine, Errors: 0.
+

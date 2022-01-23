@@ -1,0 +1,16 @@
+Connecting logger..Added loggerSCmm with id=-1, took 0.00810623168945312 [ms] 
+
+Launching 2 additional clients.
+.Added TCIHus0 with id=0, took 0.00691413879394531 [ms] 
+.Added TCWAnd1 with id=1, took 0.00691413879394531 [ms] 
+
+
+Got 3 accepted clients.
+
+3 clients were successfully connected, including LOGGER..
+
+client1 
+client2 
+Regular client.
+Logger is special
+Regular client.
